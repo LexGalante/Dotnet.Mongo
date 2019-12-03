@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dotnet.Mongo.Domain\Dotnet.Mongo.Domain.csproj" />
+    <ProjectReference Include="..\Dotnet.Mongo.Infra\Dotnet.Mongo.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
